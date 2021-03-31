@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_dashboard_fragment">Hello Dashboard fragment</string>
+    <string name="hello_list_fragment">Hello Exam List fragment</string>
+    <string name="hello_blank_fragment">Hello MapList fragment</string>
+    <string name="SNS_number">+351 808242424</string>
+    <string name="SNS_id">Linha SNS 24</string>
+    <string name="emergency_id">Gabinete de Emergência Consular</string>
+    <string name="emergency_cellphone_number">+351 961706472</string>
+    <string name="emergency_telephone_number">+351 217929714</string>
+</resources>
