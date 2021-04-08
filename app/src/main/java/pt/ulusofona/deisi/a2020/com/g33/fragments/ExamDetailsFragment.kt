@@ -23,7 +23,6 @@ import pt.ulusofona.deisi.a2020.com.g33.data.*
 class ExamDetailsFragment : Fragment() {
 
     private var currentAnimator: Animator? = null
-
     private var shortAnimationDuration: Int = 0
 
     override fun onCreateView(
