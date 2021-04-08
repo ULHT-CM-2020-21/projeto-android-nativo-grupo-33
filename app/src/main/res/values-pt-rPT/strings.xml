@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ajuda Covid</string>
+    <string name="hello_dashboard_fragment">Estado Atual da Situação</string>
+    <string name="hello_list_fragment">Hello Exam List fragment</string>
+    <string name="hello_blank_fragment">Hello MapList fragment</string>
+    <string name="SNS_id">Linha SNS 24</string>
+    <string name="emergency_id">Gabinete de Emergência Consular</string>
+    <string name="active_cases">Casos Ativos</string>
+    <string name="local_de_teste">Local de testes</string>
+    <string name="concluir_registo_de_teste">Concluir Registo de Teste</string>
+    <string name="casos_confirmados">Casos confirmados</string>
+    <string name="mortes_atuais">Número atual de mortes</string>
+    <string name="pessoas_no_hospital">Pessoas no Hospital</string>
+    <string name="casos_recuperados">Casos Recuperados</string>
+    <string name="pessoas_nos_cuidados_intensivos">Pessoas nos cuidados intensivos</string>
+    <string name="hello_examdetails_fragment">Olá ExamDetails Fragment</string>
+    <string name="linha_seguran_a_social">Linha Segurança Social</string>
+    <string name="plataforma_sobre_a_covid_19">Plataforma sobre a COVID-19</string>
+    <string name="canal_de_esclarecimento_de_duvidas">Canal de esclarecimento de dúvidas sobre COVID 19</string>
+    <string name="legislacao_covid_19">Legislação COVID-19 em Portugal</string>
+    <string name="contacts">Contactos</string>
+    <string name="list_of_places">Listar Locais</string>
+    <string name="list_of_tests">List. Testes</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="estou_em_perigo">Estou em perigo?</string>
+    <string name="enter_date">Introduzir data</string>
+    <string name="name_of_the_place">"Nome do Local: "</string>
+    <string name="address_of_place">"Morada do Local: "</string>
+    <string name="date">"Data: "</string>
+    <string name="result">"Resultado: "</string>
+    <string name="testing_site">"Local de Teste: "</string>
+    <string name="add_exam_date">Adicionar Data de Exame</string>
+    <string name="select_date">"Data Selecionada:  "</string>
+    <string name="exam_date">"Data do Exame : "</string>
+    <string name="tests_result">"Resultado do Exame: "</string>
+    <string name="name_of_testing_site">Nome de local de Teste:</string>
+    <string name="resultado">Resultado</string>
+    <string name="positivo">Positivo?</string>
+    <string name="add_exam_picture">Adicionar Imagem do Exame</string>
+    <string name="Select_date">Selecione uma data</string>
+</resources>

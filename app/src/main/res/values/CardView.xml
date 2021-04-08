@@ -3,6 +3,5 @@
     <style name="MyCardView" parent="Widget.MaterialComponents.CardView">
         <item name="strokeColor">@color/black</item>
         <item name="strokeWidth">2dp</item>
-
     </style>
 </resources>

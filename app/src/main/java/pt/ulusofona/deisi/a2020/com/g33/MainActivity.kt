@@ -1,8 +1,13 @@
-package pt.ulusofona.deisi.a2020.com.g33.activities
+package pt.ulusofona.deisi.a2020.com.g33
 
+import android.graphics.Color
+import android.graphics.Color.*
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.graphics.drawable.DrawableCompat.getColorFilter
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.toolbar.*
 import pt.ulusofona.deisi.a2020.com.g33.NavigationManager
 import pt.ulusofona.deisi.a2020.com.g33.R
 
@@ -11,12 +16,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         NavigationManager.goToDashboardFragment(supportFragmentManager)
-        bottomNavigationView.background =null
+        bottomNavigationView.background = null
         bottomNavigationView.menu.getItem(2).isEnabled = false
-
+        var isThisAreaSafe = true
 
         fab.setOnClickListener{
+            NavigationManager.goToAddExamFragment(supportFragmentManager)
+        }
 
+        toolbar.setOnClickListener{
+            isThisAreaSafe = if (isThisAreaSafe){
+                status_circle.setColorFilter(RED)
+                false
+            }else{
+                status_circle.setColorFilter(GREEN)
+                true
+            }
         }
 
         bottomNavigationView.setOnNavigationItemSelectedListener {

@@ -30,6 +30,10 @@ abstract class NavigationManager {
             placeFragment(fm,MapListSitesFragment())
         }
 
+        fun goToAddExamFragment(fm: FragmentManager){
+            placeFragment(fm, AddExamFragment())
+        }
+
         fun goToExamDetailsFragment(fm: FragmentManager){
             placeFragment(fm,ExamDetailsFragment())
         }

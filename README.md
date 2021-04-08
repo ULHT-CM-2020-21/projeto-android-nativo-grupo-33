@@ -7,4 +7,4 @@ Filipe Silva __21705317__
 TBD
 
 ## Auto Avaliação
-  TBD
+15

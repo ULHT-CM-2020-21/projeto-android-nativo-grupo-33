@@ -1,11 +1,47 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="hello_dashboard_fragment">Hello Dashboard fragment</string>
-    <string name="hello_list_fragment">Hello Exam List fragment</string>
+    <string name="app_name">Covid Help</string>
+    <string name="hello_dashboard_fragment">Current State of Situation</string>
+    <string name="hello_list_fragment">Exam List</string>
     <string name="hello_blank_fragment">Hello MapList fragment</string>
-    <string name="SNS_number">+351 808242424</string>
-    <string name="SNS_id">Linha SNS 24</string>
-    <string name="emergency_id">Gabinete de Emergência Consular</string>
-    <string name="emergency_cellphone_number">+351 961706472</string>
-    <string name="emergency_telephone_number">+351 217929714</string>
+    <string name="SNS_number" translatable="false">+351 808242424</string>
+    <string name="SNS_id">SNS 24 Phone Line</string>
+    <string name="emergency_id">Consular Emergency Office</string>
+    <string name="emergency_cellphone_number" translatable="false">+351 961706472</string>
+    <string name="emergency_telephone_number" translatable="false">+351 217929714</string>
+    <string name="active_cases">Active Cases</string>
+    <string name="local_de_teste">Testing site</string>
+    <string name="concluir_registo_de_teste">Conclude Test Registration</string>
+    <string name="casos_confirmados">Confirmed Cases</string>
+    <string name="mortes_atuais">Current number of deaths</string>
+    <string name="pessoas_no_hospital">People at the Hospital</string>
+    <string name="casos_recuperados">Recovered cases</string>
+    <string name="pessoas_nos_cuidados_intensivos">People at ICU</string>
+    <string name="hello_examdetails_fragment">Hello ExamDetails Fragment</string>
+    <string name="linha_seguran_a_social">Security Social Line</string>
+    <string name="plataforma_sobre_a_covid_19">Platform on COVID-19</string>
+    <string name="canal_de_esclarecimento_de_duvidas">Doubt clarification channel about COVID 19</string>
+    <string name="legislacao_covid_19">COVID-19 PT Legislation</string>
+    <string name="contacts">Contacts</string>
+    <string name="list_of_places">List Places</string>
+    <string name="list_of_tests">List Tests</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="estou_em_perigo">Am I in danger?</string>
+    <string name="check_status" translatable="false">Check Status</string>
+    <string name="enter_date">Enter date</string>
+    <string name="name_of_the_place">"Name of the Place: "</string>
+    <string name="address_of_place">"Address Of Place: "</string>
+    <string name="date">"Date: "</string>
+    <string name="result">"Result: "</string>
+    <string name="testing_site">"Testing site: "</string>
+    <string name="add_exam_date">Add Exam Date</string>
+    <string name="select_date">"Selected Date: "</string>
+    <string name="exam_date">"Exam date: "</string>
+    <string name="tests_result">Exam\'s Result:</string>
+    <string name="name_of_testing_site">Name of testing site:</string>
+    <string name="resultado">Result</string>
+    <string name="positivo">Positive?</string>
+    <string name="add_exam_picture">Add Exam Picture</string>
+    <string name="zoom_touch_close" translatable="false">Zoom_touch_close</string>
+    <string name="description_image" translatable="false">description_image</string>
+    <string name="Select_date">Select a Date</string>
 </resources>

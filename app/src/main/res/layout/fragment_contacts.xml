@@ -6,24 +6,9 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         tools:context=".fragments.ContactsFragment">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Contactos COVID 19"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textColor="@color/black"
-            android:layout_margin="10dp"
-            />
-
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:rowCount="4"
             android:columnCount="2"
             android:alignmentMode="alignMargins"
@@ -31,6 +16,7 @@
             android:columnOrderPreserved="false">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/sns_phone"
                 android:layout_width="190dp"
                 android:layout_height="125dp"
                 android:layout_margin="8dp"
@@ -71,6 +57,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/social_security_phone"
                 android:layout_width="190dp"
                 android:layout_height="125dp"
                 app:cardCornerRadius="12dp"
@@ -93,7 +80,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Linha Segurança Social"
+                        android:text="@string/linha_seguran_a_social"
                         android:textSize="16sp"
                         android:textColor="@color/grey"
                         android:layout_marginTop="8dp"/>
@@ -112,6 +99,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/gec_telephone"
                 android:layout_width="190dp"
                 android:layout_height="125dp"
                 android:layout_margin="8dp"
@@ -151,6 +139,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/gec_cellphone"
                 android:layout_width="190dp"
                 android:layout_height="125dp"
                 android:layout_margin="8dp"
@@ -191,6 +180,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/covid19_website"
                 android:layout_width="190dp"
                 android:layout_height="125dp"
                 android:layout_margin="8dp"
@@ -212,7 +202,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Plataforma sobre a COVID-19"
+                        android:text="@string/plataforma_sobre_a_covid_19"
                         android:textAlignment="center"
                         android:textColor="@color/grey"
                         android:textSize="16sp" />
@@ -230,6 +220,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/sns_email"
                 android:layout_width="190dp"
                 android:layout_height="125dp"
                 android:layout_margin="8dp"
@@ -251,15 +242,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Canal de esclarecimento de duvidas"
+                        android:text="@string/canal_de_esclarecimento_de_duvidas"
                         android:textAlignment="center"
                         android:textColor="@color/grey"
-                        android:textSize="16sp" />
+                        android:textSize="15sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="atendimento@SNS24.gov.pt"
+                        android:text="atendimento@
+                        SNS24.gov.pt"
                         android:textColor="@color/white"
                         android:textStyle="bold"
                         android:textAlignment="center"
@@ -271,6 +263,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/gec_email"
                 android:layout_width="190dp"
                 android:layout_height="125dp"
                 android:layout_margin="8dp"
@@ -293,7 +286,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="Gabinete de Emergência Consular"
+                        android:text="@string/emergency_id"
                         android:textAlignment="center"
                         android:textColor="@color/grey"
                         android:textSize="16sp" />
@@ -312,8 +305,8 @@
 
             </androidx.cardview.widget.CardView>
 
-
             <androidx.cardview.widget.CardView
+                android:id="@+id/covid_government_rules"
                 android:layout_width="190dp"
                 android:layout_height="125dp"
                 android:layout_margin="8dp"
@@ -335,7 +328,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Legislação COVID-19"
+                        android:text="@string/legislacao_covid_19"
                         android:textAlignment="center"
                         android:textColor="@color/grey"
                         android:textSize="16sp" />
@@ -354,7 +347,5 @@
             </androidx.cardview.widget.CardView>
 
         </GridLayout>
-        
-    </LinearLayout>
 
 </ScrollView>
